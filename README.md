@@ -19,6 +19,7 @@ Laravel is a web application framework with expressive, elegant syntax. We belie
 - [Robust background job processing](https://laravel.com/docs/queues).
 - [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
 
+How To Run this Code?
 
  Login code with a backend Admin Panel. The code can easily be merged into an existing website. The example pages and codes (login, registration, forgotten password, etc.) included in the code can be customized to be used in your own website or can fit neatly in to your existing website.
 
@@ -35,10 +36,15 @@ Set your google settings in below directory
                -- services.php file
 Open Terminal or SSH and go to project folder and run below list of command
     - php artisan config:cache
+    
     - php artisan config:clear
+    
     - php artisan migrate
+    
     - php artisan db:seed
+    
 To run the project use below command
+
     - php artisan serve
     
     Admin Features
