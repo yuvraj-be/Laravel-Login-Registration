@@ -35,6 +35,7 @@ Set your google settings in below directory
         -- config
                -- services.php file
 Open Terminal or SSH and go to project folder and run below list of command
+
     - php artisan config:cache
     
     - php artisan config:clear
@@ -46,7 +47,6 @@ Open Terminal or SSH and go to project folder and run below list of command
 To run the project use below command
 
     - php artisan serve
-    
     Admin Features
 Dashboard (Total Users, Total CMS)
 Sign in
